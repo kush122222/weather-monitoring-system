@@ -1,0 +1,25 @@
+.alerts-table {
+    margin: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .alerts-table h2 {
+    text-align: center;
+  }
+  
+  .alerts-table table {
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+  .alerts-table th, .alerts-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .alerts-table th {
+    background-color: #f4f4f4;
+  }
+  
