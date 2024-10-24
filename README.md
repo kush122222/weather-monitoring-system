@@ -16,13 +16,11 @@ Copy code
 cd frontend
 Install the dependencies:
 
-bash
-Copy code
+
 npm install
 Run the frontend server:
 
-bash
-Copy code
+
 npm start
 The frontend will be running on http://localhost:3000.
 
@@ -40,8 +38,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 Install the dependencies:
 
-npm install
-Create a .env file in the backend folder and add the following:
+
 
 
 MONGODB_URI=mongodb://localhost:27017/weather_monitoring_system
@@ -89,7 +86,7 @@ Open the MongoDB shell:
 
 bash
 Copy code
-mongo
+mongosh
 Switch to the admin database and create an administrative user:
 
 
